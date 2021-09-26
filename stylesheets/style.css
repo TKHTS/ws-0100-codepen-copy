@@ -22,5 +22,31 @@ body {
 .l-flex-wrap {
   flex-wrap: wrap; }
 
+.badge-warning {
+  background-color: #ffdd40;
+  color: #1F1F26; }
+
+h1 .logo {
+  margin: 0 20px; }
+
+.l-sidebar {
+  min-width: 190px; }
+
 .sidebar {
   background: #1F1F26; }
+  .sidebar ul {
+    list-style: none; }
+  .sidebar .sub-menu-list a {
+    text-decoration: none; }
+
+.text-primary {
+  color: #0ebeff; }
+
+.text-success {
+  color: #47cf73; }
+
+.text-warning {
+  color: #ffdd40; }
+
+.text-muted {
+  color: #b7bbc8; }
