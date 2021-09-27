@@ -1,3 +1,10 @@
-.badge-warning
-  background-color: #ffdd40
-  color: #1F1F26
+.badge
+  border-radius: 4px
+  margin-left: 3px
+  padding: 1px 4px
+  font-size: 0.8rem
+  font-weight: bold
+  &-warning
+    @extend .badge
+    background-color: #ffdd40
+    color: #1F1F26
