@@ -59,6 +59,28 @@ body {
     margin: 0 12px;
     width: 100%; }
 
+.hero-content {
+  display: flex; }
+
+.hero h1 {
+  font-size: 3rem; }
+
+.hero i {
+  font-size: 3rem; }
+
+.hero p {
+  font-size: 1.1rem; }
+
+.hero-discription {
+  width: 50%;
+  padding: 48px; }
+
+.hero-gray-card {
+  width: 495px;
+  height: 410px;
+  background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
+  width: 50%; }
+
 .l-main {
   width: 100%; }
   .l-main .l-header {
