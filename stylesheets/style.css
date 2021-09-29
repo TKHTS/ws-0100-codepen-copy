@@ -30,7 +30,7 @@ body {
   font-weight: bold; }
   .badge-warning {
     background-color: #ffdd40;
-    color: #1F1F26; }
+    color: #252830; }
 
 .button {
   border: none; }
@@ -99,12 +99,6 @@ body {
       border-radius: 4px;
       font-size: 18px;
       font-weight: bold; }
-    .l-main .l-header .header-button {
-      display: flex;
-      justify-content: space-around;
-      padding: 2px;
-      font-size: 15px;
-      width: 20%; }
     .l-main .l-header input {
       background-color: transparent;
       border: none;
@@ -113,6 +107,33 @@ body {
       font-size: 18px;
       font-weight: bold;
       margin-left: 16px; }
+    .l-main .l-header .header-button {
+      display: flex;
+      justify-content: space-around;
+      padding: 2px;
+      font-size: 15px;
+      width: 20%; }
+
+.search-box {
+  display: flex;
+  justify-content: space-around;
+  min-height: 100%;
+  margin: 0;
+  padding: 8px;
+  width: 80%;
+  background-color: #252830;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold; }
+
+input {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 16px; }
 
 h1 .logo {
   margin: 0 20px; }
@@ -121,7 +142,7 @@ h1 .logo {
   min-width: 220px; }
 
 .sidebar {
-  background: #1F1F26;
+  background: #252830;
   padding: 0 16px;
   height: 100vh; }
   .sidebar .discription-start-coding {
