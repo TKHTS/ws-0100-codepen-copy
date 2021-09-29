@@ -74,6 +74,8 @@ body {
 .hero-discription {
   width: 50%;
   padding: 48px; }
+  .hero-discription button {
+    margin: 0; }
 
 .hero-gray-card {
   width: 495px;
