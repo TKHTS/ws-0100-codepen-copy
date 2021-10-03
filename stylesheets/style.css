@@ -22,6 +22,9 @@ body {
 .l-flex-wrap {
   flex-wrap: wrap; }
 
+.l-sidebar {
+  min-width: 220px; }
+
 .l-main {
   width: 100%; }
   .l-main .l-header {
@@ -104,9 +107,6 @@ button {
     font-size: 18px;
     font-weight: bold;
     margin-left: 16px; }
-
-.l-sidebar {
-  min-width: 220px; }
 
 .sidebar {
   background: #252830;
