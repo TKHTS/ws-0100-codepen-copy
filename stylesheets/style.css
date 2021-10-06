@@ -90,10 +90,43 @@ button {
   height: 180px;
   padding: 10px;
   width: 300px;
-  background-color: #252830; }
+  background-color: #000; }
   .card-code-html {
     display: flex;
     justify-content: space-between; }
+
+.card-code-two {
+  position: relative;
+  left: 340px;
+  bottom: 10px;
+  height: 180px;
+  padding: 10px;
+  width: 300px;
+  background-color: #000; }
+  .card-code-two-html {
+    display: flex;
+    justify-content: space-between; }
+
+.card-code-three {
+  position: relative;
+  left: 280px;
+  bottom: 0px;
+  height: 180px;
+  padding: 10px;
+  width: 300px;
+  background-color: #000; }
+  .card-code-three-html {
+    display: flex;
+    justify-content: space-between; }
+
+.cursor {
+  animation: blink 1s infinite; }
+
+@keyframes blink {
+  0% {
+    color: #fff; }
+  100% {
+    color: #000; } }
 
 .header-button {
   display: flex;
@@ -142,6 +175,12 @@ button {
       font-size: 0.8rem;
       margin-bottom: 0; }
 
+.text-blue {
+  color: #7a99ad; }
+
+.text-green {
+  color: #74b087; }
+
 .text-primary {
   color: #0ebeff; }
 
@@ -153,6 +192,15 @@ button {
 
 .text-muted {
   color: #b7bbc8; }
+
+.text-orange {
+  color: #a88038; }
+
+.text-purple {
+  color: #9f8198; }
+
+.text-yellow {
+  color: #e1ca72; }
 
 .text-big-h1 {
   font-size: 3rem; }
