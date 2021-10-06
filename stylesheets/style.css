@@ -171,6 +171,8 @@ body {
     .sub-menu-list-title {
       font-size: 0.8rem;
       margin-bottom: 0; }
+    .sub-menu-list a {
+      text-decoration: none; }
 
 .text-blue {
   color: #7a99ad; }
