@@ -74,6 +74,10 @@ body {
   padding: 10px;
   width: 300px;
   background-color: #000; }
+  .code-card-margin-left-2rem {
+    margin-left: 2rem; }
+  .code-card-margin-left-3rem {
+    margin-left: 3rem; }
   .code-card-html {
     display: flex;
     justify-content: space-between; }
@@ -124,51 +128,6 @@ body {
   height: 410px;
   margin-top: 48px;
   width: 50%; }
-
-.code-card {
-  position: relative;
-  left: 280px;
-  bottom: 20px;
-  height: 180px;
-  padding: 10px;
-  width: 300px;
-  background-color: #000; }
-  .code-card-html {
-    display: flex;
-    justify-content: space-between; }
-
-.code-card-two {
-  position: relative;
-  left: 340px;
-  bottom: 10px;
-  height: 180px;
-  padding: 10px;
-  width: 300px;
-  background-color: #000; }
-  .code-card-two-html {
-    display: flex;
-    justify-content: space-between; }
-
-.code-card-three {
-  position: relative;
-  left: 280px;
-  bottom: 0px;
-  height: 180px;
-  padding: 10px;
-  width: 300px;
-  background-color: #000; }
-  .code-card-three-html {
-    display: flex;
-    justify-content: space-between; }
-
-.cursor {
-  animation: blink 1s infinite; }
-
-@keyframes blink {
-  0% {
-    color: #fff; }
-  100% {
-    color: #000; } }
 
 .header-button {
   display: flex;
