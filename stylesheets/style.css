@@ -66,6 +66,51 @@ body {
     background-color: #47cf73;
     color: #000; }
 
+.code-card {
+  position: relative;
+  left: 280px;
+  bottom: 20px;
+  height: 180px;
+  padding: 10px;
+  width: 300px;
+  background-color: #000; }
+  .code-card-html {
+    display: flex;
+    justify-content: space-between; }
+
+.code-card-two {
+  position: relative;
+  left: 340px;
+  bottom: 10px;
+  height: 180px;
+  padding: 10px;
+  width: 300px;
+  background-color: #000; }
+  .code-card-two-html {
+    display: flex;
+    justify-content: space-between; }
+
+.code-card-three {
+  position: relative;
+  left: 280px;
+  bottom: 0px;
+  height: 180px;
+  padding: 10px;
+  width: 300px;
+  background-color: #000; }
+  .code-card-three-html {
+    display: flex;
+    justify-content: space-between; }
+
+.cursor {
+  animation: blink 1s infinite; }
+
+@keyframes blink {
+  0% {
+    color: #fff; }
+  100% {
+    color: #000; } }
+
 .hero-content {
   display: flex; }
 
