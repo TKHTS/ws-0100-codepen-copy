@@ -74,6 +74,10 @@ body {
   padding: 10px;
   width: 300px;
   background-color: #000; }
+  .code-card-margin-left-2rem {
+    margin-left: 2rem; }
+  .code-card-margin-left-3rem {
+    margin-left: 3rem; }
   .code-card-html {
     display: flex;
     justify-content: space-between; }
