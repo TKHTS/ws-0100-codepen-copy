@@ -80,7 +80,7 @@ body {
   margin-top: 48px;
   width: 50%; }
 
-.card-code {
+.code-card {
   position: relative;
   left: 280px;
   bottom: 20px;
@@ -88,11 +88,11 @@ body {
   padding: 10px;
   width: 300px;
   background-color: #000; }
-  .card-code-html {
+  .code-card-html {
     display: flex;
     justify-content: space-between; }
 
-.card-code-two {
+.code-card-two {
   position: relative;
   left: 340px;
   bottom: 10px;
@@ -100,11 +100,11 @@ body {
   padding: 10px;
   width: 300px;
   background-color: #000; }
-  .card-code-two-html {
+  .code-card-two-html {
     display: flex;
     justify-content: space-between; }
 
-.card-code-three {
+.code-card-three {
   position: relative;
   left: 280px;
   bottom: 0px;
@@ -112,7 +112,7 @@ body {
   padding: 10px;
   width: 300px;
   background-color: #000; }
-  .card-code-three-html {
+  .code-card-three-html {
     display: flex;
     justify-content: space-between; }
 
