@@ -36,6 +36,9 @@ body {
     align-items: center;
     margin: 16px; }
 
+.features {
+  margin-top: 40px; }
+
 .badge {
   border-radius: 4px;
   font-size: 0.8rem;
