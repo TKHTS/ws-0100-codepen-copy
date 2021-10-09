@@ -115,6 +115,24 @@ body {
   100% {
     color: #000; } }
 
+.features-icon {
+  background: black;
+  border-radius: 8px;
+  padding: 16px;
+  position: relative;
+  bottom: 40px;
+  left: 100px;
+  height: 80px;
+  width: 80px;
+  text-align: center; }
+
+.features-content {
+  background: #252830;
+  border-radius: 8px;
+  padding: 40px;
+  width: 360px;
+  height: 340px; }
+
 .hero-content {
   display: flex; }
 
