@@ -132,6 +132,12 @@ body {
     height: 80px;
     width: 80px;
     text-align: center; }
+    .features-icon-row {
+      background: black;
+      padding: 4px;
+      margin-right: 4px;
+      border-radius: 4px;
+      text-align: center; }
   .features-content {
     background: #252830;
     border-radius: 8px;
@@ -145,8 +151,15 @@ body {
       height: 40px;
       border-radius: 4px;
       margin: 16px 8px 0px 0px; }
+  .features-wrapper-icons {
+    display: flex;
+    margin-top: 24px; }
   .features-text {
     display: flex; }
+    .features-text-icon {
+      margin-left: 4px; }
+    .features-text-user {
+      margin: 8px 0 0 0; }
 
 .hero-content {
   display: flex; }
