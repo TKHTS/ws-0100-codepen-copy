@@ -138,6 +138,8 @@ body {
     padding: 40px;
     width: 360px;
     height: 340px; }
+  .features-image {
+    width: 100%; }
 
 .hero-content {
   display: flex; }
