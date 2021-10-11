@@ -163,6 +163,13 @@ body {
     .features-text-user {
       margin: 8px 0 0 0; }
 
+.footer {
+  background: #000; }
+
+.footer-list {
+  display: flex;
+  list-style: none; }
+
 .hero-content {
   display: flex; }
 
