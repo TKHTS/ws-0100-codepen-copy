@@ -164,7 +164,10 @@ body {
       margin: 8px 0 0 0; }
 
 .footer {
-  background: #000; }
+  background: #000;
+  justify-content: space-between; }
+  .footer-two {
+    margin-right: 2rem; }
   .footer-list {
     display: flex;
     list-style: none; }
