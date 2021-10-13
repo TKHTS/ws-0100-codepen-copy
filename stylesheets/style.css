@@ -26,7 +26,6 @@ body {
 
 .l-sidebar {
   background: #252830;
-  height: 100%;
   padding: 0 16px;
   min-width: 220px; }
 
@@ -204,8 +203,7 @@ body {
 
 .sidebar {
   background: #252830;
-  padding: 0 16px;
-  height: 100%; }
+  padding: 0 16px; }
 
 .discription-start-coding {
   color: #b7bbc8;
