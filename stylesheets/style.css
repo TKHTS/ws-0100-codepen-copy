@@ -72,13 +72,14 @@ body {
     color: #000; }
 
 .code-card {
+  background-color: #252830;
   position: relative;
-  left: 280px;
-  bottom: 20px;
   height: 180px;
   padding: 10px;
   width: 300px;
-  background-color: #000; }
+  border-radius: 6px;
+  bottom: 20px;
+  left: 280px; }
   .code-card-margin-left-2rem {
     margin-left: 2rem; }
   .code-card-margin-left-3rem {
@@ -86,30 +87,12 @@ body {
   .code-card-html {
     display: flex;
     justify-content: space-between; }
-
-.code-card-two {
-  position: relative;
-  left: 340px;
-  bottom: 10px;
-  height: 180px;
-  padding: 10px;
-  width: 300px;
-  background-color: #000; }
-  .code-card-two-html {
-    display: flex;
-    justify-content: space-between; }
-
-.code-card-three {
-  position: relative;
-  left: 280px;
-  bottom: 0px;
-  height: 180px;
-  padding: 10px;
-  width: 300px;
-  background-color: #000; }
-  .code-card-three-html {
-    display: flex;
-    justify-content: space-between; }
+  .code-card-two {
+    bottom: 10px;
+    left: 340px; }
+  .code-card-three {
+    left: 280px;
+    bottom: 0px; }
 
 .cursor {
   animation: blink 1s infinite; }
