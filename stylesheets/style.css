@@ -205,6 +205,9 @@ body {
 .sidebar {
   background: #252830;
   padding: 0 16px; }
+  @media (max-width: 576px) {
+    .sidebar {
+      display: none; } }
 
 .discription-start-coding {
   color: #b7bbc8;
