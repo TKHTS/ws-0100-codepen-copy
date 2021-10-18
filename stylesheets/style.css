@@ -150,7 +150,7 @@ body {
   background: #000;
   justify-content: space-between; }
   .footer-two {
-    margin-right: 2rem; }
+    margin: 0 2rem; }
   .footer-list {
     display: flex;
     list-style: none; }
