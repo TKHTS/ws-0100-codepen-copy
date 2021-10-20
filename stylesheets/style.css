@@ -59,6 +59,8 @@ body {
   border-radius: 4px;
   padding: 12px 16px;
   min-width: 80px; }
+  .button:hover {
+    opacity: 0.5; }
   @media (max-width: 576px) {
     .button {
       font-size: 8px; } }
