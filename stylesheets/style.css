@@ -80,6 +80,11 @@ body {
     color: #000;
     margin-right: 8px; }
 
+.product-item-card:hover {
+  transition: transform 0.3s;
+  transform: scale(1.1, 1.1);
+  opacity: 0.5; }
+
 .code-card {
   background-color: #252830;
   position: relative;
