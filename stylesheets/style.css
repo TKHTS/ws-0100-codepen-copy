@@ -207,7 +207,8 @@ body {
   @media (max-width: 768px) {
     .hero-gray-card {
       width: 100%;
-      overflow-x: clip; } }
+      overflow-x: clip;
+      height: 540px; } }
 
 .header-button {
   display: flex;
