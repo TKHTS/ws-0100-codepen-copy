@@ -2,12 +2,15 @@
   background: $color-black
   justify-content: space-between
   &-two
-    margin: 0 2rem 
+    margin: 0 24px
   &-list
     display: flex
     list-style: none
+    padding: 0 24px
+    @include sm
+      font-size: 0.8rem
     &-item
-      margin-right: 2rem
+      margin-right: 0.5rem
       color: $color-muted
       &-bold
         color: $color-white
