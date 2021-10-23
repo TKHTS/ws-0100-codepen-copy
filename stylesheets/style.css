@@ -80,9 +80,17 @@ body {
     color: #000;
     margin-right: 8px; }
 
+.product-item-wrap {
+  margin: 32px; }
+
+.product-item-container {
+  width: 360px;
+  height: 340px;
+  background-color: #252830; }
+
 .product-item-card:hover {
   transition: transform 0.3s;
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
   opacity: 0.5; }
 
 .code-card {
