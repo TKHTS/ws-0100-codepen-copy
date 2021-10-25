@@ -83,6 +83,10 @@ body {
     background-color: #47cf73;
     color: #000;
     margin-right: 8px; }
+  .button-outline {
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-weight: bold; }
 
 .product-item-wrap {
   margin: 32px; }
@@ -97,6 +101,10 @@ body {
   transform: scale(1.05, 1.05);
   opacity: 0.5;
   cursor: pointer; }
+
+.product-item-footer {
+  margin: 32px;
+  text-align: center; }
 
 .code-card {
   background-color: #252830;
