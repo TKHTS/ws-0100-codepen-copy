@@ -115,7 +115,7 @@ body {
   border-radius: 6px;
   bottom: 20px;
   left: 280px; }
-  @media (max-width: 576px) {
+  @media (max-width: 768px) {
     .code-card {
       left: 50px; } }
   .code-card-margin-left-2rem {
@@ -128,13 +128,13 @@ body {
   .code-card-two {
     bottom: 10px;
     left: 340px; }
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
       .code-card-two {
         left: 110px; } }
   .code-card-three {
     left: 280px;
     bottom: 0px; }
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
       .code-card-three {
         left: 50px; } }
 
