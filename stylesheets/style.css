@@ -42,9 +42,6 @@ body {
     .l-header {
       margin: 16px 2px; } }
 
-.features {
-  margin-top: 40px; }
-
 .badge {
   border-radius: 4px;
   font-size: 0.8rem;
@@ -150,7 +147,7 @@ body {
 
 .features {
   justify-content: center;
-  margin-top: 72px; }
+  margin-top: 40px; }
   .features-card {
     padding: 32px; }
     @media (max-width: 576px) {
