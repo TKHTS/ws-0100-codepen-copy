@@ -32,14 +32,15 @@ body {
 
 .l-main {
   width: 100%; }
-  .l-main .l-header {
-    display: flex;
-    width: 100;
-    align-items: center;
-    margin: 16px; }
-    @media (max-width: 576px) {
-      .l-main .l-header {
-        margin: 16px 2px; } }
+
+.l-header {
+  display: flex;
+  width: 100;
+  align-items: center;
+  margin: 16px; }
+  @media (max-width: 576px) {
+    .l-header {
+      margin: 16px 2px; } }
 
 .features {
   margin-top: 40px; }
