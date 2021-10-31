@@ -16,6 +16,9 @@ body {
   box-sizing: border-box;
   color: #FFFFFF; }
 
+a {
+  text-decoration: none; }
+
 .l-flex {
   display: flex; }
 
@@ -291,8 +294,6 @@ body {
     .sub-menu-list-title {
       font-size: 0.8rem;
       margin-bottom: 0; }
-    .sub-menu-list a {
-      text-decoration: none; }
     .sub-menu-list li:hover {
       background-color: #000; }
 
