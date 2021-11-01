@@ -29,7 +29,7 @@ a {
   flex-wrap: wrap; }
 
 .l-sidebar {
-  background: #252830;
+  background: #1F1F26;
   padding: 0 16px;
   min-width: 220px; }
 
@@ -53,7 +53,7 @@ a {
   padding: 1px 4px; }
   .badge-warning {
     background-color: #ffdd40;
-    color: #252830; }
+    color: #1F1F26; }
 
 .button {
   border: none;
@@ -95,7 +95,7 @@ a {
 .product-item-container {
   width: 360px;
   height: 340px;
-  background-color: #252830; }
+  background-color: #1F1F26; }
 
 .product-item-card:hover {
   transition: transform 0.3s;
@@ -108,7 +108,7 @@ a {
   text-align: center; }
 
 .code-card {
-  background-color: #252830;
+  background-color: #1F1F26;
   position: relative;
   height: 180px;
   padding: 10px;
@@ -173,7 +173,7 @@ a {
       border-radius: 4px;
       text-align: center; }
   .features-content {
-    background: #252830;
+    background: #1F1F26;
     border-radius: 8px;
     padding: 40px;
     width: 360px;
@@ -253,7 +253,7 @@ a {
   margin: 0;
   padding: 8px;
   width: 100%;
-  background-color: #252830;
+  background-color: #1F1F26;
   border-radius: 4px;
   font-size: 18px;
   font-weight: bold; }
@@ -274,7 +274,7 @@ a {
         font-size: 12px; } }
 
 .sidebar {
-  background: #252830;
+  background: #1F1F26;
   padding: 0 16px; }
   @media (max-width: 576px) {
     .sidebar {
