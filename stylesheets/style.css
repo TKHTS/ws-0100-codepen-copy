@@ -282,7 +282,8 @@ a {
 
 .discription-start-coding {
   color: #b7bbc8;
-  font-size: 0.9rem; }
+  font-size: 0.8rem;
+  text-align: center; }
 
 .sub-menu {
   padding: 16px 0; }
