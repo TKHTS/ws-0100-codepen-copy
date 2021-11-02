@@ -16,6 +16,9 @@ body {
   box-sizing: border-box;
   color: #FFFFFF; }
 
+a {
+  text-decoration: none; }
+
 .l-flex {
   display: flex; }
 
@@ -26,23 +29,21 @@ body {
   flex-wrap: wrap; }
 
 .l-sidebar {
-  background: #252830;
+  background: #1F1F26;
   padding: 0 16px;
-  min-width: 220px; }
+  min-width: 188px; }
 
 .l-main {
   width: 100%; }
-  .l-main .l-header {
-    display: flex;
-    width: 100;
-    align-items: center;
-    margin: 16px; }
-    @media (max-width: 576px) {
-      .l-main .l-header {
-        margin: 16px 2px; } }
 
-.features {
-  margin-top: 40px; }
+.l-header {
+  display: flex;
+  width: 100;
+  align-items: center;
+  margin: 8px; }
+  @media (max-width: 576px) {
+    .l-header {
+      margin: 16px 2px; } }
 
 .badge {
   border-radius: 4px;
@@ -52,7 +53,7 @@ body {
   padding: 1px 4px; }
   .badge-warning {
     background-color: #ffdd40;
-    color: #252830; }
+    color: #1F1F26; }
 
 .button {
   border: none;
@@ -94,7 +95,7 @@ body {
 .product-item-container {
   width: 360px;
   height: 340px;
-  background-color: #252830; }
+  background-color: #1F1F26; }
 
 .product-item-card:hover {
   transition: transform 0.3s;
@@ -149,7 +150,7 @@ body {
 
 .features {
   justify-content: center;
-  margin-top: 72px; }
+  margin-top: 40px; }
   .features-card {
     padding: 32px; }
     @media (max-width: 576px) {
@@ -172,7 +173,7 @@ body {
       border-radius: 4px;
       text-align: center; }
   .features-content {
-    background: #252830;
+    background: #1F1F26;
     border-radius: 8px;
     padding: 40px;
     width: 360px;
@@ -251,7 +252,7 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 8px;
-  width: 80%;
+  width: 100%;
   background-color: #252830;
   border-radius: 4px;
   font-size: 18px;
@@ -261,7 +262,7 @@ body {
       width: 65%;
       font-size: 14px; } }
   .search-form-box-input {
-    background-color: transparent;
+    background-color: #252830;
     border: none;
     height: 100%;
     width: 100%;
@@ -273,7 +274,7 @@ body {
         font-size: 12px; } }
 
 .sidebar {
-  background: #252830;
+  background: #1F1F26;
   padding: 0 16px; }
   @media (max-width: 576px) {
     .sidebar {
@@ -293,8 +294,6 @@ body {
     .sub-menu-list-title {
       font-size: 0.8rem;
       margin-bottom: 0; }
-    .sub-menu-list a {
-      text-decoration: none; }
     .sub-menu-list li:hover {
       background-color: #000; }
 
