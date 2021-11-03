@@ -344,7 +344,7 @@ a {
 
 .text-big-h1 {
   font-size: 3rem;
-  margin-top: 0;
+  margin: 0;
   font-weight: 900; }
   @media (max-width: 576px) {
     .text-big-h1 {
