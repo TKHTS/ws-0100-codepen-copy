@@ -262,6 +262,9 @@ a {
 .hero-logo {
   font-size: 36px; }
 
+.footer-logo {
+  font-weight: normal; }
+
 .search-form-box {
   display: flex;
   justify-content: space-around;
@@ -345,6 +348,9 @@ a {
 
 .text-yellow {
   color: #e1ca72; }
+
+.text-faded-white {
+  color: #b7bbc8; }
 
 .text-big-h1 {
   font-size: 3rem;
