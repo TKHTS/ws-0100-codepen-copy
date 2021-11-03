@@ -50,9 +50,10 @@ a {
   font-weight: bold;
   margin-left: 3px;
   padding: 1px 4px; }
-  .badge-warning {
-    background-color: #ffdd40;
-    color: #1F1F26; }
+
+.badge-warning {
+  background-color: #ffdd40;
+  color: #1F1F26; }
 
 .button {
   border: none;
@@ -198,7 +199,7 @@ a {
 .footer {
   background: #000;
   justify-content: space-between; }
-  .footer-two {
+  .footer-right {
     margin: 0 24px; }
   .footer-list {
     display: flex;
