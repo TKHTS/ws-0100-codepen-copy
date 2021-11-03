@@ -234,6 +234,9 @@ a {
     .hero-discription {
       width: 100%; } }
 
+.hero-footer {
+  font-size: 1.4rem; }
+
 .hero-gray-card {
   background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
   height: 410px;
