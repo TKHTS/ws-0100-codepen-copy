@@ -116,12 +116,12 @@ a {
 .code-card {
   background-color: #1d1e22;
   position: relative;
-  height: 180px;
+  height: 140px;
   padding: 10px;
   width: 300px;
   border-radius: 6px;
   bottom: 20px;
-  left: 280px; }
+  left: 160px; }
   @media (max-width: 992px) {
     .code-card {
       left: 50px; } }
@@ -134,12 +134,12 @@ a {
     justify-content: space-between; }
   .code-card-two {
     bottom: 10px;
-    left: 340px; }
+    left: 220px; }
     @media (max-width: 992px) {
       .code-card-two {
         left: 110px; } }
   .code-card-three {
-    left: 280px;
+    left: 160px;
     bottom: 0px; }
     @media (max-width: 992px) {
       .code-card-three {
@@ -220,7 +220,8 @@ a {
         font-weight: bold; }
 
 .hero-content {
-  display: flex; }
+  display: flex;
+  margin-bottom: 48px; }
   @media (max-width: 768px) {
     .hero-content {
       display: block; } }
@@ -240,12 +241,15 @@ a {
   background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
   height: 410px;
   margin-top: 48px;
-  width: 50%; }
+  width: 495px; }
   @media (max-width: 768px) {
     .hero-gray-card {
       width: 100%;
       overflow-x: clip;
       height: 540px; } }
+
+.hero-image-card {
+  margin: 16px auto; }
 
 .header-button {
   display: flex;
