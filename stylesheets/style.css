@@ -84,12 +84,14 @@ a {
   .button-secondary {
     background-color: #444857;
     color: #fff;
-    border: none; }
+    border: none;
+    min-width: 100px; }
   .button-success {
     background-color: #47cf73;
     color: #000;
     margin-right: 8px;
-    border: none; }
+    border: none;
+    min-width: 100px; }
 
 .product-item-wrap {
   margin: 32px; }
