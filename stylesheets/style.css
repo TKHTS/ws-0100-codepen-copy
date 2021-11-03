@@ -85,13 +85,15 @@ a {
     background-color: #444857;
     color: #fff;
     border: none;
-    min-width: 100px; }
+    min-width: 100px;
+    font-size: 15px; }
   .button-success {
     background-color: #47cf73;
     color: #000;
     margin-right: 8px;
     border: none;
-    min-width: 100px; }
+    min-width: 100px;
+    font-size: 15px; }
 
 .product-item-wrap {
   margin: 32px; }
