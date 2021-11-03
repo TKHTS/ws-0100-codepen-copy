@@ -251,6 +251,9 @@ a {
 .logo {
   text-align: center; }
 
+.hero-logo {
+  font-size: 36px; }
+
 .search-form-box {
   display: flex;
   justify-content: space-around;
@@ -336,7 +339,9 @@ a {
   color: #e1ca72; }
 
 .text-big-h1 {
-  font-size: 3rem; }
+  font-size: 3rem;
+  margin-top: 0;
+  font-weight: 900; }
   @media (max-width: 576px) {
     .text-big-h1 {
       font-size: 2rem; } }
