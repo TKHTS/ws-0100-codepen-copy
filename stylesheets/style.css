@@ -101,11 +101,17 @@ a {
   height: 340px;
   background-color: #1F1F26; }
 
-.product-item-card:hover {
-  transition: transform 0.3s;
-  transform: scale(1.05, 1.05);
-  opacity: 0.5;
-  cursor: pointer; }
+.product-item-content {
+  background: #2c303a;
+  padding: 40px;
+  width: 360px;
+  height: 340px;
+  border-radius: 0; }
+  .product-item-content:hover {
+    transition: transform 0.3s;
+    transform: scale(1.05, 1.05);
+    opacity: 0.5;
+    cursor: pointer; }
 
 .product-item-footer {
   margin: 32px;
