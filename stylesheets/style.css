@@ -137,6 +137,8 @@ a {
   .code-card-html {
     display: flex;
     justify-content: space-between; }
+  .code-card-wrapper {
+    margin: 4px; }
   .code-card-two {
     bottom: 10px;
     left: 220px; }
